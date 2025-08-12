@@ -12,6 +12,11 @@ packages:
   gitUrl: https://github.com/vijetadixit
   gitUsername: Karthik-V-IBM-10
   gitBranch: Test2
+- name: TPP_services_in_FCS
+  gitServerName: kvv
+  gitUrl: https://github.com/Karthik-V-IBM-10
+  gitUsername: Karthik-V-IBM-10
+  gitBranch: main
 services:
 - serviceName: project.siqa_testgitall_1308.integrations:AlertsCRTandERT
   packages:
