@@ -8,27 +8,53 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: SIQA_OriginTest_OnPremAssets
+  version: "1.0"
   gitServerName: kvv
   gitUrl: https://github.com/vijetadixit
   gitUsername: Karthik-V-IBM-10
   gitBranch: Test2
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: kvv
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
+- serviceName: project.siqa_testgitall_1308.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsertNew
+  packages:
+  - name: SIQA_TESTGITALL_1308Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
 - serviceName: project.siqa_testgitall_1308.integrations:AlertsCRTandERT
   packages:
   - name: SIQA_TESTGITALL_1308Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
 - serviceName: pub.alert:emit
   packages:
   - name: WmPublic
     version: 11.1.0.0.2077
+- serviceName: project.siqa_testgitall_1308.integrations:SIQAAdapterFlow
+  packages:
+  - name: SIQA_TESTGITALL_1308Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
+    version: "1.0"
 - serviceName: project.siqa_testgitall_1308.integrations:deepclonetest
   packages:
   - name: SIQA_TESTGITALL_1308Project
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SIQA_OriginTest_OnPremAssets
     version: "1.0"
 - serviceName: pub.string:stringToBytes
   packages:
