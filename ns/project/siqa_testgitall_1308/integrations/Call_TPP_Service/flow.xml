@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+<INVOKE NAME="TPP_services_in_FCS" SERVICE="services:add3Ints">
   <COMMENT></COMMENT>
-</SEQUENCE>
+</INVOKE>
 </FLOW>
